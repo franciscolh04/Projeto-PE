@@ -22,7 +22,12 @@ dados |>
             hjust = 0.5, vjust = 2.7) +
   geom_segment(aes(x = label_x, y = label_y - 0.01, xend = GDP, yend = HCI), 
                arrow = arrow(length = unit(0.2, "cm")), color = "black", na.rm = TRUE) +
-  labs(title = paste("HCI vs GDP per Capita"),
+  labs(title = paste("HCI as a function of GDP per Capita"),
        x = "GDP per Capita (log scale)",
-       y = "Human Capital Index")
+       y = "Human Capital Index (values between 0 and 1)") +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    axis.title.x = element_text(face = "bold"), axis.title.y = element_text(face = "bold"),
+    legend.title = element_text(face = "bold")
+  )
 

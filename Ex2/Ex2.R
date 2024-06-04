@@ -12,8 +12,14 @@ selected <- subset(dados, year == ano & age == faixa_etaria)
 # Criar o gráfico
 ggplot(selected, aes(sex, suicides.100k.pop, color = sex)) +
   geom_boxplot(position = position_dodge(width = 0.8)) +
-  labs(title = "Suicides per 100,000 inhabitants by Sex (2002, Age 55-74 years)",
+  labs(title = "Suicides per 100000 inhabitants by Sex (2002, Age 55-74 years) in Several Countries",
        x = "Sex",
-       y = "Suicides per 100,000 inhabitants",
+       y = "Suicides per 100000 inhabitants",
        fill = "Sex") +
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    axis.title.x = element_text(face = "bold"),
+    axis.title.y = element_text(face = "bold"),
+    legend.title = element_text(face = "bold")
+  ) 
+  

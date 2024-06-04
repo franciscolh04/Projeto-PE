@@ -6,7 +6,7 @@ num_simulacoes <- 650
 num_circuitos <- 7
 
 # Definir as probabilidades para os sinais de 1 a 9
-probabilidades <- (1:9) / 55
+probabilidades <- (1:9) / 45
 
 # Inicializar contadores
 avisos_sonoros <- 0
