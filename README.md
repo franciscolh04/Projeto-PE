@@ -1,7 +1,7 @@
-## Manual Evaluation (Exs 1, 2 and 3):
+## Manual evaluation (Exs 1, 2 and 3):
 5.9/6
 
-## Automatic Evaluation:
+## Automatic evaluation:
 14/14
 
 ## Final grade:
