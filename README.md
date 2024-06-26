@@ -1,4 +1,4 @@
-## Manual evaluation (Exs 1, 2 and 3):
+## Manual evaluation (exs 1, 2 and 3):
 5.9/6
 
 ## Automatic evaluation:
